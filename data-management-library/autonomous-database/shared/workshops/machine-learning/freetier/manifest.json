@@ -1,4 +1,5 @@
 {
+    "workshoptitle": "Simple Introduction to Machine Learning Algorithms",
     "tutorials": [
       {
            "title": "Prerequisites",
@@ -10,7 +11,7 @@
             "filename": "./../../../intro/intro-ziplab.md"
         },
         {
-            "title": "Lab 1: Provision an ADW Instance",
+            "title": "Lab 1: Provision Autonomous Database",
             "description": "Provision a new ADW instance and connect to the database",
             "partnumber": "Ennnnn_01",
             "publisheddate": "04/29/2020",
@@ -34,7 +35,7 @@
             "filename": "./../../../adw-oml-notebooks/adw-oml-notebooks.md"
         },
         {
-            "title": "Lab 4: Building a Simple Machine Learning Algorithm",
+            "title": "Lab 4: Simple Introduction to Machine Learning Algorithms (DBMS_PREDICTIVE_ANALYTICS)",
             "description": "Simple Introduction to Machine Learning Algorithms (DBMS_PREDICTIVE_ANALYTICS)",
             "partnumber": "Ennnnn_01",
             "publisheddate": "03/10/2020",

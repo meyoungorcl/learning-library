@@ -4,7 +4,7 @@
 
 [Overview](#overview)
 
-[Pre-Requisites](#pre-requisites)
+[Prerequisites](#Prerequisites)
 
 [Sign in to OCI Console create Object Storage Bucket and VCN](#sign-in-to-oci-console-create-object-storage-bucket-and-vcn)
 
@@ -48,7 +48,7 @@ Service Gateway alleviates the preceding concerns by enabling the following func
 
 **Note:** OCI UI is being updated thus some screenshots in the instructions might be different than actual UI
 
-## Pre-Requisites
+## Prerequisites
 
 1. Oracle Cloud Infrastructure account credentials (User, Password, Tenant, and Compartment)  
 
@@ -130,7 +130,7 @@ This should create a file by the name "samplefile" in the Downloads folder
 
 **NOTE:** Ensure the correct Compartment is selected under COMPARTMENT list
 
-15. Click **VCN with Internet Connectivity** and click **Start Workflow**
+15. Click **VCN with Internet Connectivity** and click **Start VCN Wizard**
 
 16. Fill out the dialog box:
 

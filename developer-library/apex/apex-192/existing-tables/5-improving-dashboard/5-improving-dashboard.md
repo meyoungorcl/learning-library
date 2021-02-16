@@ -11,8 +11,8 @@ Looking at the Dashboard you will see that Chart 4 is based on demo data and sho
 
     ![](images/go-page2.png " ")
 
-    You should now be in *Page Designer*. Page Designer is where you will spend the majority of your time improving your application. 
-    
+    You should now be in *Page Designer*. Page Designer is where you will spend the majority of your time improving your application.
+
     There are three panes within Page Designer. The left pane initially displays the Rendering tree, with a list of page components. The middle pane displays the Layout, a representation of the page, and Gallery (at bottom), from which you can drag and drop new components into the Layout. The right pane is the Property Editor, where you can change attributes for the selected component.
 
 3. Within Page Designer, in the Rendering tree (left pane), _right-click_ **Chart 4** and select **Delete**.
@@ -58,6 +58,9 @@ This completes Lab 5. You now know how to remove and reposition regions. [Click 
 
  - **Author** -  David Peake, Consulting Member of Technical Staff
  - **Contributors** - Tom McGinn, Database Cloud Services, Product Management
- - **Last Updated By/Date** - Arabella Yao, Product Manager Intern, Database Mangement, July 2020
+ - **Last Updated By/Date** - Arabella Yao, Product Manager Intern, Database Management, July 2020
 
-See an issue? Please open up a request [here](https://github.com/oracle/learning-library/issues). Please include the workshop name and lab in your request.
+## Need Help?
+Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/oracle-apex-development-workshops). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
+
+If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.

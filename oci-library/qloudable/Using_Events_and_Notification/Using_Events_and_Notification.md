@@ -3,7 +3,7 @@
 
 [Overview](#overview)
 
-[Pre-Requisites](#pre-requisites)
+[Prerequisites](#Prerequisites)
 
 [Sign in to OCI Console and configure Notification and Event](#sign-in-to-oci-console-and-configure-notification-and-event)
 
@@ -41,7 +41,7 @@ In this lab we will verify notifications when a compute instance is launched and
 
 **Note:** OCI UI is being updated thus some screenshots in the instructions might be different than actual UI
 
-## Pre-Requisites
+## Prerequisites
 
 1. OCI Training : https://cloud.oracle.com/en_US/iaas/training
 
@@ -121,7 +121,7 @@ Under **Actions**
 
 **NOTE:** Ensure the correct Compartment is selected under COMPARTMENT list
 
-2. Click **VCN with Internet Connectivity** and click **Start Workflow**
+2. Click **VCN with Internet Connectivity** and click **Start VCN Wizard**
 
 3. Fill out the dialog box:
 

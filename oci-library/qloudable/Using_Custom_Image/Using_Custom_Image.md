@@ -4,7 +4,7 @@
 
 [Overview](#overview)
 
-[Pre Requisites](#pre-requisites)
+[Pre Requisites](#Prerequisites)
 
 [Sign in to OCI Console and create VCN](#sign-in-to-oci-console-and-create-vcn)
 
@@ -70,7 +70,7 @@ In this lab we will use Custom image feature of OCI. Using this feature an exist
 
 **NOTE:** Ensure the correct Compartment is selected under COMPARTMENT list
 
-3. Click **VCN with Internet Connectivity** and click **Start Workflow**
+3. Click **VCN with Internet Connectivity** and click **Start VCN Wizard**
 
 4. Fill out the dialog box:
 

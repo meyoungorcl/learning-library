@@ -4,7 +4,7 @@
 
 [Overview](#overview)
 
-[Pre-Requisites](#pre-requisites)
+[Prerequisites](#Prerequisites)
 
 [Sign in to OCI Console and create reserved public IP](#sign-in-to-oci-console-and-create-reserved-public-ip)
 
@@ -42,7 +42,7 @@ The purpose of this lab is to give you an overview of the Reserved Public IP Ser
 
 **Note:** OCI UI is being updated thus some screenshots in the instructions might be different than actual UI
 
-## Pre-Requisites
+## Prerequisites
 
 
 1. Oracle Cloud Infrastructure account credentials (User, Password, Tenant, and Compartment)  
@@ -79,7 +79,7 @@ The purpose of this lab is to give you an overview of the Reserved Public IP Ser
 
 **NOTE:** Ensure the correct Compartment is selected under COMPARTMENT list
 
-3. Click **VCN with Internet Connectivity** and click **Start Workflow**
+3. Click **VCN with Internet Connectivity** and click **Start VCN Wizard**
 
 4. Fill out the dialog box:
 

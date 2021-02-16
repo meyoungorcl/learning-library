@@ -20,11 +20,12 @@ The Cloud Shell machine is a small virtual machine running a Bash shell which yo
 
     ![](./images/cloudshell.png " ")
 
-2.  Once the cloud shell has started, enter the following command. Choose the key name you can remember. This will be the keyname you will use to connect to any compute instances you create. Press Enter twice for no passphrase.
+2.  Once the cloud shell has started, enter the following commands. Choose the key name you can remember. This will be the keyname you will use to connect to any compute instances you create. Press Enter twice for no passphrase.
 
     ````
     <copy>mkdir .ssh</copy>
     ````
+    ![](./images/mkdir.png " ") 
 
     ````
     <copy>cd .ssh</copy>
@@ -36,9 +37,8 @@ The Cloud Shell machine is a small virtual machine running a Bash shell which yo
 
     *Note: The angle brackets <<>> should not appear in your code.*
 
-    ![](./images/cloudshell-ssh-keygen.png " ")
+    ![](./images/cloudshell-ssh.png " ")
 
-    ![](./images/cloudshell-ssh-keygen-2.png " ")
 
 3.  Examine the two files that you just created.
 
@@ -46,25 +46,31 @@ The Cloud Shell machine is a small virtual machine running a Bash shell which yo
     <copy>ls</copy>
     ````
 
-    ![](./images/examine-cloudshell-keys.png " ")
+    ![](./images/ls.png " ")
 
     Note in the output that there are two files, a *private key:* ```<<sshkeyname>>``` and a *public key:* ```<<sshkeyname>>.pub```. Keep the private key safe and don't share its content with anyone. The public key will be needed for various activities and can be uploaded to certain systems as well as copied and pasted to facilitate secure communications in the cloud.
 
-4. To list the contents of the public key, use the cat command ```cat <<sshkeyname>>.pub```
+4. To list the contents of the public key, use the cat command:
+     ```
+     cat <<sshkeyname>>.pub
+     ```
 
     *Note: The angle brackets <<>> should not appear in your code.*
 
-    ![](images/cat-in-cloudshell.png " ")
+    ![](images/cat.png " ")
 
-5.  When pasting the key into the compute instance in future labs, make sure that you remove any hard returns that may have been added when copying. *The .pub key should be one line.*
+5.  Copy the contents of the public key and save it somewhere for later. When pasting the key into the compute instance in future labs, make sure that you remove any hard returns that may have been added when copying. *The .pub key should be one line.*
 
-    ![](images/copy-publickey-cloudshell.png " ")
+    ![](images/copy-cat.png " ")
 
-You may now *proceed to the next lab*.
+You may now [proceed to the next lab](#next).
 
 ## Acknowledgements
 * **Author** - Dan Kingsley, Enablement Specialist, OSPA
-* **Last Updated By/Date** - Kay Malcolm, Director, Database Product Management, March 27, 2020
+* **Last Updated By/Date** - Kamryn Vinson Database Product Management, January 2021
 * **Workshop (or Lab) Expiry Date** - March 27, 2021
 
-See an issue?  Please open up a request [here](https://github.com/oracle/learning-library/issues).   Please include the workshop name and lab in your request.
+## Need Help?
+Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/livelabsdiscussions). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
+
+If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.

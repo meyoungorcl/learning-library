@@ -4,7 +4,7 @@
 
 [Overview](#overview)
 
-[Pre-Requisites](#pre-requisites)
+[Prerequisites](#Prerequisites)
 
 [Sign in to OCI Console and create VCN](#sign-in-to-oci-console-and-create-vcn)
 
@@ -47,7 +47,7 @@ In this lab you will deploy http servers on two compute instances in Oracle Clou
 
 **Note:** OCI UI is being updated thus some screenshots in the instructions might be different than actual UI
 
-## Pre-Requisites
+## Prerequisites
 
 1. OCI Training : https://cloud.oracle.com/en_US/iaas/training
 
@@ -76,7 +76,7 @@ In this lab you will deploy http servers on two compute instances in Oracle Clou
 
 **NOTE:** Ensure the correct Compartment is selected under COMPARTMENT list
 
-3. Choose **VCN with Internet Connectivity** and click **Start Workflow**
+3. Choose **VCN with Internet Connectivity** and click **Start VCN Wizard**
 
 4. Fill out the dialog box:
 
